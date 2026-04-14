@@ -2,9 +2,11 @@ name: Continuous Deployment - IaC
 
 on:
   push:
-    branches: [IaC]
+    branches:
+      - IaC
   pull_request:
-    branches: [IaC]
+    branches:
+      - IaC
   workflow_dispatch:
 
 env:
