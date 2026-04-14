@@ -1,28 +1,27 @@
-# Awsome recipe cookbook
-### Demo DevOps repository for use in teachings in It-architechture, cloud and agil udvikling at EK ITA Spring 2026
+# Awesome recipe cookbook
+Demo DevOps repository for use in teachings in It-architechture, cloud and agil udvikling at EK ITA Spring 2026
 
-This is the "Awsome recipe cookbook" repository. It is not meant for production as it contains several security vulnerabilities and problematic parts on purpose. 
+This is the "Awsome recipe cookbook" repository. It is not meant for production as it contains several security vulnerabilities and problematic parts on purpose.
 
-## How to get started
+## Nginx Proxy (proxy) branch
 
-Each branch is a tutorial in a different topic based on the same Flask application as in the `main` branch. 
+You're currently on the **proxy** branch, which demonstrates the use of nginx proxy and backend run through a docker-compose file.
 
-One way to follow along is by:
+[![linting](https://github.com/cookbookio/awsome_recipe_cookbook/actions/workflows/linting.yml/badge.svg?branch=linting)](https://github.com/cookbookio/awsome_recipe_cookbook/actions/workflows/linting.yml)
+---
 
-1. Forking the repository to your own account.
+## Get started
 
-2. Cloning the repository to your local machine.
+```
+git checkout proxy
+cd src
+docker-compose -f docker-compose.prod.yml up --build
+```
 
-3. Checking out the branch you are interested in (e.g. `git checkout <branch_name>`).
-
-4. Following the instructions in the README of the branch.
-
-5. You can now push changes to your own repository. 
-
-## Pull requests
-
-If you have any suggestions or improvements to the tutorials, feel free to open a pull request.
+Look at the `/src` directory and the network/backend directories.
 
 ---
 ## ⚠️  SECURITY VULNERABILITIES - EDUCATIONAL PURPOSE ONLY ⚠️
 ---
+
+skriver noget her for at kunne pushe noget til branchen - mmmmmmmm - yoohoo please virk
