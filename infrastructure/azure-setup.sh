@@ -31,8 +31,8 @@ while [[ $# -gt 0 ]]; do
 done
 
 # Configuration variables - CUSTOMIZE THESE
-RESOURCE_GROUP="recipe-cookbook-rg"
-LOCATION="norwayeast"  # Change to your preferred region (e.g., "eastus", "northeurope")
+RESOURCE_GROUP="recipe-cookbook-rg2"
+LOCATION="swedencentral"  # Change to your preferred region (e.g., "eastus", "northeurope")
 NGINX_VM_NAME="recipe-cookbook-nginx-vm"
 BACKEND_VM_NAME="recipe-cookbook-backend-vm"
 VM_SIZE="Standard_B1s"  # Change to "Standard_B2s" for better performance
